@@ -1,304 +1,813 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Portfolio 2.0</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-    <div class="container">
-        <a class="navbar-brand" href="#">Chandra Kant Budhalakoti</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light">
+    <title>Chetan CV</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet" />
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet" />
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet" />
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+          opacity: 1 !important;
+          transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
+          color-on-scroll="400"
+        >
+          <div class="container">
+            <div class="navbar-translate">
+              <a class="navbar-brand" href="#" rel="tooltip">My Portfolio</a>
+              <button
+                class="navbar-toggler navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-bar bar1"></span
+                ><span class="navbar-toggler-bar bar2"></span
+                ><span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navigation"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link smooth-scroll" href="#skill">Skills</a>
                 </li>
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                  <a class="nav-link smooth-scroll" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-            
-        </div>
-    </div>
-</nav>
-<!-- main banner -->
-<section class="bgimage" id="home">
-  <div class="container-fluid">
-      <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-          <h2 class="hero_title">Hi, it's me Chandra Kant Budhalakoti AKA Chetan</h2>
-          <p class="hero_desc">I am a WEB DESIGNER, DEVELOPER, CODER, STUDENT</p>
-      </div>
-      </div>
-  </div>
-</section>
-<!-- about section-->
-<section id="about">
-  <div class="container mt-4 pt-4">
-      <h1 class="text-center">About Me</h1>
-      <div class="row mt-4">
-          <div class="col-lg-4">
-              <img src="images/about.jpg" class= "imageAboutPage" alt="">
+              </ul>
+            </div>
           </div>
-
-          <div class="col-lg-8">
-              <p>Welcome to my profile! My name is Chandra Kant Budhalakoti AKA Chetan, and I'm 21 year old. I created this profile to connect with others who share similar interests and passions.
-              </p>
-              <div class="row mt-3">
-                  <div class="col-md-6">
-                      <ul>
-                          <li>Name: Chandra Kant Budhalakoti</li>
-                          <li>Age: 21</li>
-                          <li>Occupation: Web Developer, Programmer</li>
-
-                      </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+        <div class="profile-page">
+          <div class="wrapper">
+            <div class="page-header page-header-small" filter-color="green">
+              <div
+                class="page-header-image"
+                data-parallax="true"
+                style="background-image: url('images/cc-bg-1.jpg')"
+              ></div>
+              <div class="container">
+                <div class="content-center">
+                  <div class="cc-profile-image">
+                    <a href="#"><img src="images/image.jpg" alt="Image" /></a>
                   </div>
-                  <div class="col-md-6">
-                    <ul>
-                        <li>Email: chandrakantbudhalakoti189@gmail.com</li>
-                        <li>Phone: +91 8954479618</li>
-                        <li>Address: Kaladhungi Bandobasti, Nainital</li>
-
-                    </ul>
+                  <div class="h2 title">Chandrakant Budhalakoti</div>
+                  <p class="category text-white">
+                    Web Designer, Developer, Coder, Student
+                  </p>
+                  <a
+                    class="btn btn-primary smooth-scroll mr-2"
+                    href="#contact"
+                    data-aos="zoom-in"
+                    data-aos-anchor="data-aos-anchor"
+                    >Hire Me</a
+                  ><a
+                    class="btn btn-primary"
+                    href="https://drive.google.com/file/d/1z9pdhlTYN9kJdJbtsr1mmlGAhMSgl7IF/view?usp=share_link"
+                    data-aos="zoom-in"
+                    data-aos-anchor="data-aos-anchor"
+                    >Download CV</a
+                  >
                 </div>
               </div>
-              <div class="row mt-3">
-                  <p>I believe that  &quot;If you want something you've never had, you must be willing to do somthing you've never done. &quot; In my free time, I enjoy music,walking and playing some online game like BGMI.
-                  <br>
-                  I recently graduated with a degree in Bachelor of Arts. and I am currently studying Master of Computer Application and am passionate about codding, Programming and Problem solving.
-                  <br>
-                  I'm excited to connect with new people and have meaningful conversations. Please feel free to reach out to me if you'd like to chat about [insert topics you're interested in] or if you have any questions. Let's get to know each other!
-                  </p>
+              <div class="section">
+                <div class="container">
+                  <div class="button-container">
+                    <a
+                      class="btn btn-default btn-round btn-lg btn-icon"
+                      href="https://www.facebook.com/chetan.budhalakoti.189"
+                      rel="tooltip"
+                      title="Follow me on Facebook"
+                      ><i class="fa fa-facebook"></i></a
+                    ><a
+                      class="btn btn-default btn-round btn-lg btn-icon"
+                      href="https://twitter.com/Chetan_189"
+                      rel="tooltip"
+                      title="Follow me on Twitter"
+                      ><i class="fa fa-twitter"></i></a
+                    ><a
+                      class="btn btn-default btn-round btn-lg btn-icon"
+                      href="#"
+                      rel="tooltip"
+                      title="Follow me on Google+"
+                      ><i class="fa fa-google-plus"></i></a
+                    ><a
+                      class="btn btn-default btn-round btn-lg btn-icon"
+                      href="https://www.instagram.com/chetan_budhalakoti_/"
+                      rel="tooltip"
+                      title="Follow me on Instagram"
+                      ><i class="fa fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
-      </div>
-</section>
-<!-- services section-->
-<section id="services">
+        </div>
+        <div class="section" id="about">
+          <div class="container">
+            <div class="card" data-aos="fade-up" data-aos-offset="10">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <div class="card-body">
+                    <div class="h4 mt-0 title">About</div>
+                    <p>Hello! I am Chandrakant Budhalakoti.</p>
+                    <p>
+                      I have a good hand on Programming Languages and Web
+                      Development too, due to which i am able to implement them
+                      practically.and here is what i have given my skiils rating
+                      so that you all can have a clear look through it.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <div class="card-body">
+                    <div class="h4 mt-0 title">Basic Information</div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <strong class="text-uppercase">Age:</strong>
+                      </div>
+                      <div class="col-sm-8">20</div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-4">
+                        <strong class="text-uppercase">Email:</strong>
+                      </div>
+                      <div class="col-sm-8">
+                        chandrakantbudhalakoti189@gmail.com
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-4">
+                        <strong class="text-uppercase">Phone:</strong>
+                      </div>
+                      <div class="col-sm-8">+91 8954479618</div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-4">
+                        <strong class="text-uppercase">Address:</strong>
+                      </div>
+                      <div class="col-sm-8">
+                        Kaladhungi Bandobasti, Nainital
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-4">
+                        <strong class="text-uppercase">Language:</strong>
+                      </div>
+                      <div class="col-sm-8">English, Hindi</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="skill">
+          <div class="container">
+            <!-- skill section starts here -->
+            <div class="h4 text-center mb-4 title">Professional Skills</div>
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">HTML</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 80%"
+                        ></div>
+                        <span class="progress-value">80%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">CSS</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 55%"
+                        ></div>
+                        <span class="progress-value">55%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">JavaScript</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 50%"
+                        ></div>
+                        <span class="progress-value">50%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">mySQL</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 70%"
+                        ></div>
+                        <span class="progress-value">70%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Bootstrap</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 75%"
+                        ></div>
+                        <span class="progress-value">75%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Python</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 70%"
+                        ></div>
+                        <span class="progress-value">70%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="section" id="portfolio">
   <div class="container">
-      <h1 class="text-center">Services</h1>
-      <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card servicesText">
-                  <div class="card-body">
-                      <i class="fas servicesIcon fa-clock"></i>
-                      <h4 class="card-title mt-3">Website Development</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
-                  </div>
-              </div>  
-          </div>
-          <div class="col-lg-4 mt-4">
-              <div class="card servicesText">
-                  <div class="card-body">
-                      <i class='fas servicesIcon fa-layer-group'></i>
-                      <h4 class="card-title mt-3">Website Design</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
-                  </div>
-              </div>  
-          </div>
-          <div class="col-lg-4 mt-4">
-              <div class="card servicesText">
-                  <div class="card-body">
-                      <i class='far servicesIcon fa-check-circle'></i>
-                      <h4 class="card-title mt-3">Website Deployment</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
-                  </div>
-              </div>  
-          </div>
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card servicesText">
-                  <div class="card-body">
-                      <i class='fas servicesIcon fa-search'></i>
-                      <h4 class="card-title mt-3">SEO</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
-                  </div>
-              </div>  
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Recent Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Startup Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Food Order Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Web Advertising Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
           </div>
-          <div class="col-lg-4 mt-4">
-              <div class="card servicesText">
-                  <div class="card-body">
-                      <i class='fas servicesIcon fa-shield-alt'></i>
-                      <h4 class="card-title mt-3">DevOps</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
-                  </div>
-              </div>  
-          </div>
-          <div class="col-lg-4 mt-4">
-              <div class="card servicesText">
-                  <div class="card-body">
-                      <i class='fas servicesIcon fa-wrench'></i>
-                      <h4 class="card-title mt-3">QA</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                      </p>
-                  </div>
-              </div>  
-          </div>
+        </div>
       </div>
+      <div class="tab-pane" id="graphic-design" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Triangle Pattern</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Umbrella</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Cube Surface Texture</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Line</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="Photography" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Wedding Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Beach Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Nature Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</section>
-<!-- portfolio section-->
-<section id="portfolio">
-  <div class="container mt-3">
-      <h1 class="text-center">Portfolio</h1>
+</div> -->
+        <!-- <div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="card">
       <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card">
-                  <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">YouTube Clone</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>March 2016 - Present</p>
+            <div class="h5">CreativeM</div>
           </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Quiz App</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Front End Developer</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
           </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Product Landing Page</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        </div>
       </div>
-      <br>
+    </div>
+    <div class="card">
       <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Messaging Service</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2014 - March 2016</p>
+            <div class="h5">WebNote</div>
           </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Twitter Clone</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Web Developer</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
           </div>
-
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Blog App</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        </div>
       </div>
-</section>
-<!-- contact section-->
-<section id="contact">
-  <div class="container mt-3 contactContent">
-      <h1 class="text-center">Contact Me</h1>
-
-      <div class="row mt-4">
-          <div class="col-lg-6">
-              <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-              <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Kaladhungi,+Uttarakhand,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-map-html" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a><style>#embed-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2013 - February 2014</p>
+            <div class="h5">WEBM</div>
           </div>
-
-          <div class="col-lg-6">
-              <!-- form fields -->
-              <form>
-                  <input type="text" class="form-control form-control-lg" placeholder="Name">
-                  <input type="email" class="form-control mt-3" placeholder="Email">
-                  <input type="text" class="form-control mt-3" placeholder="Subject">
-                  <div class="mb-3 mt-3">
-                      <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                  </div>
-              </form>
-              <button type="button" class="btn btn-success mt-3">Contact Me</button>
-              
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Intern</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
           </div>
-
+        </div>
       </div>
+    </div>
   </div>
-</section>
- <!-- footer section-->
- <footer id="footer">
-  <div class="container-fluid">
-      <!-- social media icons -->
-      <div class="social-icons mt-4">
-          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+</div> -->
+        <div class="section">
+          <div class="container cc-education">
+            <div class="h4 text-center mb-4 title">Education</div>
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-education-header">
+                    <p>2022 - Present</p>
+                    <div class="h5">Master's Degree</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">Master of Computer Application</div>
+                    <p class="category">Uttarakhand Technical University</p>
+                    <p>
+                      I'm Pursuing my Master's Degree with MCA from Uttrakhand
+                      Technical University..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-education-header">
+                    <p>2019 - 2022</p>
+                    <div class="h5">Bachelor's Degree</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">Bachelor of Arts</div>
+                    <p class="category">Kumaun University</p>
+                    <p>
+                      I have completed my Bachelor's Degree from Kumaun
+                      University with 52.33%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-education-header">
+                    <p>2016 - 2017</p>
+                    <div class="h5">High School</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">Science and Mathematics</div>
+                    <p class="category">Uttarakhand board</p>
+                    <p>
+                      I have completed my High School from UK board with 71.6%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+                <div class="h5 pt-2">Aiyana</div>
+                <p class="category">CEO / WEBM</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+                <div class="h5 pt-2">Braiden</div>
+                <p class="category">CEO / Creativem</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+                <div class="h5 pt-2">Alexander</div>
+                <p class="category">CEO / Webnote</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
-</footer>
-
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-</body>
+</div> -->
+        <div class="section" id="contact">
+          <div
+            class="cc-contact-information"
+            style="
+              background-image: url('https://cache.careers360.mobi/media/schools/staticmap/2022/3/18/20897.png');
+            "
+          >
+            <div class="container">
+              <div class="cc-contact">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="card mb-0" data-aos="zoom-in">
+                      <div class="h4 text-center title">Contact Me</div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <form
+                              action="https://formspree.io/f/xlekrylj"
+                              method="POST"
+                            >
+                              <div class="p pb-3">
+                                <strong>Feel free to contact me </strong>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i class="fa fa-user-circle"></i
+                                    ></span>
+                                    <input
+                                      class="form-control"
+                                      type="text"
+                                      name="name"
+                                      placeholder="Name"
+                                      required="required"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i class="fa fa-file-text"></i
+                                    ></span>
+                                    <input
+                                      class="form-control"
+                                      type="text"
+                                      name="Subject"
+                                      placeholder="Subject"
+                                      required="required"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i class="fa fa-envelope"></i
+                                    ></span>
+                                    <input
+                                      class="form-control"
+                                      type="email"
+                                      name="_replyto"
+                                      placeholder="E-mail"
+                                      required="required"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="form-group">
+                                    <textarea
+                                      class="form-control"
+                                      name="message"
+                                      placeholder="Your Message"
+                                      required="required"
+                                    ></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col">
+                                  <button class="btn btn-primary" type="submit">
+                                    Send
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <p class="mb-0"><strong>Address </strong></p>
+                            <p class="pb-2">Kaladhungi Bandobasti, Nainital</p>
+                            <p class="mb-0"><strong>Phone</strong></p>
+                            <p class="pb-2">+91 8954479618</p>
+                            <p class="mb-0"><strong>Email</strong></p>
+                            <p>chandrakantbudhalakoti189@gmail.com</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center">
+        <p><b>FIND ME ON </b></p>
+      </div>
+      <div class="container text-center">
+        <a
+          class="cc-facebook btn btn-link"
+          href="https://www.facebook.com/chetan.budhalakoti.189"
+          ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a
+        ><a
+          class="cc-twitter btn btn-link"
+          href="https://twitter.com/Chetan_189"
+          ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a
+        ><a class="cc-google-plus btn btn-link" href="#"
+          ><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a
+        ><a
+          class="cc-instagram btn btn-link"
+          href="https://www.instagram.com/chetan_budhalakoti_/"
+          ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+        ></a>
+      </div>
+      <div class="h4 title text-center">Chandrakant Budhalakoti</div>
+      <div class="text-center text-muted">
+        <!-- copyright section -->
+        <p id="copyright">
+          &copy; <strong>Designed by Chandrakant. All rights reserved. </strong> <br>
+        </p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
 </html>
